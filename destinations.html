@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Destinations - Pampanga</title>
+<style>
+body { 
+  margin: 0; 
+  min-height: 100vh;
+  background: url('Images/DestinationsPage/Pampanga Capitol.jpg') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; 
+}
+
+.overlay {
+  width: 95%;
+  max-width: 1200px;
+  background: rgba(255,255,255,0.6);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 20px;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+}
+
+.section-title {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.place-card {
+  background: rgb(255, 255, 255);
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.31);
+}
+
+.place-card:hover {
+  transform: scale(1.05);
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  text-decoration: none;
+  background: white;
+  padding: 10px 25px;
+  border-radius: 20px;
+  color: #1e40af;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  background: #1e40af;
+  color: white;
+}
+
+.place-card a {
+  text-decoration: none;
+  color: rgb(57, 52, 52);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+</style>
+</head>
+<body>
+
+  <div class="overlay">
+
+    <h1>Pampanga Destinations</h1>
+    <div class="subtitle">THE PROVINCE OF PAMPANGA CONSISTS OF 19 MUNICIPALITIES AND 3 CITIES</div>
+
+    <div class="nav">
+      <a href="home.html">HOME</a>
+      <a href="tours.html">TOURS</a>
+      <a href="contact.html">BOOKING</a>
+      <a href="about.html">ABOUT</a>
+    </div>
+
+    <div class="section-title"><b>CITIES</b></div>
+    <div class="grid">
+      <div class="place-card"><a href="angeles.html">Angeles City</a></div>
+      <div class="place-card"><a href="sanfernando.html">San Fernando</a></div>
+      <div class="place-card"><a href="mabalacat.html">Mabalacat City</a></div>
+    </div>
+
+    <div class="section-title"><b>MUNICIPALITIES</b></div>
+    <div class="grid">
+      <div class="place-card"><a href="apalit.html">Apalit</a></div>
+      <div class="place-card"><a href="arayat.html">Arayat</a></div>
+      <div class="place-card"><a href="bacolor.html">Bacolor</a></div>
+      <div class="place-card"><a href="candaba.html">Candaba</a></div>
+      <div class="place-card"><a href="floridablanca.html">Floridablanca</a></div>
+      <div class="place-card"><a href="guagua.html">Guagua</a></div>
+      <div class="place-card"><a href="lubao.html">Lubao</a></div>
+      <div class="place-card"><a href="macabebe.html">Macabebe</a></div>
+      <div class="place-card"><a href="magalang.html">Magalang</a></div>
+      <div class="place-card"><a href="masantol.html">Masantol</a></div>
+      <div class="place-card"><a href="mexico.html">Mexico</a></div>
+      <div class="place-card"><a href="minalin.html">Minalin</a></div>
+      <div class="place-card"><a href="porac.html">Porac</a></div>
+      <div class="place-card"><a href="sanluis.html">San Luis</a></div>
+      <div class="place-card"><a href="sansimon.html">San Simon</a></div>
+      <div class="place-card"><a href="santaana.html">Santa Ana</a></div>
+      <div class="place-card"><a href="santarita.html">Santa Rita</a></div>
+      <div class="place-card"><a href="santotomas.html">Santo Tomas</a></div>
+      <div class="place-card"><a href="sasmuan.html">Sasmuan</a></div>
+    </div>
+
+  </div>
+
+</body>
+</html>
